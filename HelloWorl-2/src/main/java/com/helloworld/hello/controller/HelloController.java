@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping ("/obj")
+@RequestMapping ("/objeto")
 public class HelloController {
 	
 	@GetMapping 

@@ -9,10 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/hello")
 public class HelloController {
 	
-	@GetMapping
+	@GetMapping("/get1")
 	public String hello() { 	
 return ("Hello World "
 		+ " Mentalidade - Persistência "
 		+ " Hablidade - Atenção aos Detalhes");
 }
+	@GetMapping("/get2")
+	public String hello1() {
+	return("Hello World" + "Habilidade" + "Mentalidade");}
 }
